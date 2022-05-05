@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B6DCEBD6-88BA-4F13-8281-273140C8BF21}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Homework</RootNamespace>
+    <AssemblyName>Homework</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Homework.MockQuestions.LargestSubstring</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IfElse\Bouncynumber.cs" />
+    <Compile Include="MockQuestions\Anagram.cs" />
+    <Compile Include="MockQuestions\ArrSortAscending.cs" />
+    <Compile Include="MockQuestions\ArrSortDescending.cs" />
+    <Compile Include="MockQuestions\CharSort.cs" />
+    <Compile Include="MockQuestions\CopyToMe.cs" />
+    <Compile Include="MockQuestions\CountNoOfVowel.cs" />
+    <Compile Include="MockQuestions\CountNoWo.cs" />
+    <Compile Include="MockQuestions\CountOddElem.cs" />
+    <Compile Include="MockQuestions\Countwords.cs" />
+    <Compile Include="MockQuestions\Course.cs" />
+    <Compile Include="MockQuestions\DuplicataWordString.cs" />
+    <Compile Include="MockQuestions\Employee.cs" />
+    <Compile Include="MockQuestions\LargestSubstring.cs" />
+    <Compile Include="MockQuestions\LongWord.cs" />
+    <Compile Include="MockQuestions\maxArr.cs" />
+    <Compile Include="MockQuestions\MinArray.cs" />
+    <Compile Include="MockQuestions\MissingNumber.cs" />
+    <Compile Include="MockQuestions\PalindromeStri.cs" />
+    <Compile Include="MockQuestions\PrintNoInDescendingO.cs" />
+    <Compile Include="MockQuestions\Replace0to1Array.cs" />
+    <Compile Include="MockQuestions\ReplaceNegativeWithSquareLeft.cs" />
+    <Compile Include="MockQuestions\ReverseTheGivenArray.cs" />
+    <Compile Include="MockQuestions\SearchElement1.cs" />
+    <Compile Include="MockQuestions\Series.cs" />
+    <Compile Include="MockQuestions\Toggle.cs" />
+    <Compile Include="MockQuestions\TotalNumAlphaNuDig.cs" />
+    <Compile Include="MockQuestions\UniquesElem.cs" />
+    <Compile Include="MockQuestions\UpperLowercase.cs" />
+    <Compile Include="pattern Program\CharacterPattern.cs" />
+    <Compile Include="SimpleProgram\AccessModifier1.cs" />
+    <Compile Include="ForLoop\atoz.cs" />
+    <Compile Include="ForLoop\EvenNo.cs" />
+    <Compile Include="ForLoop\febonacci.cs" />
+    <Compile Include="ForLoop\GCDLCM.cs" />
+    <Compile Include="ForLoop\OddNo.cs" />
+    <Compile Include="ForLoop\Palindrome.cs" />
+    <Compile Include="ForLoop\ProductNo.cs" />
+    <Compile Include="ForLoop\Series.cs" />
+    <Compile Include="ForLoop\Square.cs" />
+    <Compile Include="ForLoop\SumOddNo.cs" />
+    <Compile Include="ForLoop\tableNo.cs" />
+    <Compile Include="pattern Program\DecresingPattern.cs" />
+    <Compile Include="pattern Program\Diagonal.cs" />
+    <Compile Include="pattern Program\E.cs" />
+    <Compile Include="pattern Program\F.cs" />
+    <Compile Include="pattern Program\H.cs" />
+    <Compile Include="pattern Program\Haripriya.cs" />
+    <Compile Include="pattern Program\KPattern.cs" />
+    <Compile Include="pattern Program\LeftTriangle.cs" />
+    <Compile Include="pattern Program\NOPattern.cs" />
+    <Compile Include="pattern Program\O.cs" />
+    <Compile Include="pattern Program\P.cs" />
+    <Compile Include="pattern Program\pattern.cs" />
+    <Compile Include="pattern Program\pattern1.cs" />
+    <Compile Include="pattern Program\Pyramid.cs" />
+    <Compile Include="pattern Program\RowColumn.cs" />
+    <Compile Include="pattern Program\T.cs" />
+    <Compile Include="pattern Program\Tri1.cs" />
+    <Compile Include="SimpleProgram\Book.cs" />
+    <Compile Include="SimpleProgram\Calculator.cs" />
+    <Compile Include="SwitchCase\Area.cs" />
+    <Compile Include="IfElse\Calculator.cs" />
+    <Compile Include="IfElse\CheckInput.cs" />
+    <Compile Include="SimpleProgram\ConvertRsttodollar.cs" />
+    <Compile Include="SimpleProgram\Denomination.cs" />
+    <Compile Include="SimpleProgram\digit.cs" />
+    <Compile Include="SimpleProgram\discount.cs" />
+    <Compile Include="IfElse\EvenOdd.cs" />
+    <Compile Include="IfElse\Class1.cs" />
+    <Compile Include="IfElse\LeapYear.cs" />
+    <Compile Include="IfElse\Maxno.cs" />
+    <Compile Include="IfElse\NumberCheck.cs" />
+    <Compile Include="SimpleProgram\PeriSqu.cs" />
+    <Compile Include="SwitchCase\PrinWor.cs" />
+    <Compile Include="IfElse\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="IfElse\Salary.cs" />
+    <Compile Include="SimpleProgram\School.cs" />
+    <Compile Include="sumOfDigit.cs" />
+    <Compile Include="IfElse\sumofthree .cs" />
+    <Compile Include="SwitchCase\SwiCal.cs" />
+    <Compile Include="SwitchCase\SwitDays.cs" />
+    <Compile Include="IfElse\ThreeDigit.cs" />
+    <Compile Include="SwitchCase\Vowel.cs" />
+    <Compile Include="Test26March\AmicableNo.cs" />
+    <Compile Include="Test26March\EvenOddSquare.cs" />
+    <Compile Include="Test26March\Factor.cs" />
+    <Compile Include="Test26March\HarshadNo.cs" />
+    <Compile Include="Test26March\IMEINo.cs" />
+    <Compile Include="Test26March\RedBlue.cs" />
+    <Compile Include="Test26March\SpyNo.cs" />
+    <Compile Include="Test26March\TrimorphicNo.cs" />
+    <Compile Include="Test26March\TwinPrime.cs" />
+    <Compile Include="trleap.cs" />
+    <Compile Include="IfElse\UppLower.cs" />
+    <Compile Include="IfElse\VowelConsonant.cs" />
+    <Compile Include="IfElse\ZodiacSign.cs" />
+    <Compile Include="whileLoop\CountDigit.cs" />
+    <Compile Include="whileLoop\Frequency.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
