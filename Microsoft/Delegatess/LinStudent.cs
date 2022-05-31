@@ -9,7 +9,7 @@ namespace Classwork.Delegatess
     {
         public int rno { get; set; }
         public string name { get; set; }
-        public double percentage { get; set; }
+        public double percentage { get; set;}
         public string branch { get; set; }
     }
     class LinStudent
